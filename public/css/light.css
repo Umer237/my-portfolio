@@ -1,0 +1,716 @@
+/* ====================== [ Start Typography  ] ====================== */
+
+
+/* @import "/css/bootstrap1.min.css"; */
+
+@import "/css/bootstrap.min.css";
+@import "/css/animate.css";
+@import "/css/font-awesome.min.css";
+@import "/css/ionicons.min.css";
+@import "/css/main.css";
+@import "/css/responsive.css";
+@import "/css/style.css";
+@import "/css/settings-ie8.css";
+@import "/css/settings.css";
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+}
+
+body {
+    color: #0c0f16;
+    line-height: 1.5;
+    font-weight: 400;
+    overflow-x: hidden !important;
+    font-family: "Poppins", sans-serif;
+}
+
+body.bd-dark {
+    color: #fff;
+    background: #0c0f16;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+span,
+a,
+a:hover {
+    display: inline-block;
+    color: inherit;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+h5 {
+    font-size: 25px;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    line-height: 1.4;
+    font-weight: 600;
+}
+
+p {
+    color: #000000;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 2;
+    margin: 0;
+}
+
+a,
+span {
+    display: inline-block;
+}
+
+a:hover,
+span:hover {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.custom-font {
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+
+/* ====================== [ End Typography  ] ====================== */
+
+
+/*--------------- [ Start Banner ] ---------------*/
+
+.Top-Text {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.Banner-BG {
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/90764a151365039.63127be880d26.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1121px;
+}
+
+.Banner-Text01 {
+    margin-left: 100px;
+    padding-top: 450px;
+}
+
+.Banner-Text02 {
+    margin-right: 100px;
+    padding-top: 450px;
+}
+
+.Banner-Text02 h5 span {
+    font-weight: 700;
+}
+
+.Banner-BG .Banner-Text01 h2 {
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 1.1;
+}
+
+.Banner-BG .Banner-Text01 h2 span {
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.Banner-BG .Banner-Text01 p {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.Banner-BG .Banner-Text01 p span {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.Banner-BG .Banner-Text01 button {
+    background-color: #1d41fe;
+    border: none;
+    color: rgb(247, 247, 247);
+    width: 220px;
+    height: 55px;
+    padding: 16px 5px;
+    text-align: center;
+    border-radius: 50px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    outline: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.Banner-BG .Banner-Text01 h2 {
+    width: 350px;
+}
+
+.Banner-BG .Banner-Text01 p {
+    width: 400px;
+}
+
+.Banner-BG .Banner-Text01 button:hover {
+    background-color: rgb(247, 247, 247);
+    color: #1d41fe;
+}
+
+.Banner-BG .Banner-Text01 button {
+    transition-duration: 0.4s;
+}
+
+.Banner-Flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*---------------- [ End Banner ] ----------------*/
+
+
+/*================ [ Start Brand Logos ] ===============*/
+
+.Logos-Flex {
+    background: rgb(243, 243, 243);
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.Logos-Flex01 img {
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    width: 50%;
+}
+
+.Logos-Flex01 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/*================ [ End Brand Logos ] ===============*/
+
+
+/* ====================== [ Start Unreal  ] ====================== */
+
+.container-2 {
+    display: flex;
+    /* padding: 20px 0; */
+}
+
+.box {
+    flex: 1;
+    transition: 0.8s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 335pt;
+    position: relative;
+}
+
+.box a {
+    width: 100%;
+}
+
+.unreal {
+    height: 300pt !important;
+}
+
+.unreal img {
+    height: 300pt !important;
+}
+
+.box img {
+    width: 100%;
+    object-fit: cover;
+    height: 335pt;
+    cursor: pointer;
+}
+
+.box:hover {
+    flex: 4;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.7s ease-in-out;
+    background: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    width: 100%;
+}
+
+.overlay:hover {
+    opacity: 1;
+    transition: 0.8s ease-in;
+}
+
+.content-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.content-2 h1 {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.content-2 p {
+    color: rgb(181, 181, 181);
+    padding: 0 20px;
+}
+
+
+/* ====================== [ End Unreal  ] ====================== */
+
+
+/*======================= [ Start Filter ] ======================*/
+
+.Four-Dropdown-Flex {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Four-Dropdown-Flex select {
+    background-color: rgb(247, 247, 247);
+    border: none;
+    color: rgb(0, 0, 0);
+    width: 220px;
+    height: 30px;
+    border: rgb(207, 207, 207) 0.5px solid;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    outline: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.Second-Row {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.Second-Row h5 {
+    font-size: 15px;
+}
+
+.Two-Dropdown-Flex {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.Second-Row input {
+    background-color: rgb(247, 247, 247);
+    border: none;
+    color: rgb(12, 12, 12);
+    width: 180px;
+    height: 30px;
+    border: rgb(207, 207, 207) 0.5px solid;
+    text-decoration: none;
+    padding: 5px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    outline: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.Second-Row h5 {
+    font-weight: 500;
+}
+
+.Second-Row button {
+    background-color: rgb(27, 69, 161);
+    border: none;
+    color: rgb(255, 255, 255);
+    width: 50px;
+    height: 30px;
+    border: rgb(207, 207, 207) 0.5px solid;
+    text-decoration: none;
+    padding: 3px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    outline: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+/*======================= [ End Filter ] ======================*/
+
+
+/*======================= [ Start Product Page ]==================*/
+
+.arrival-block {
+    border-top: 1px solid #d1d5db;
+    border-left: 1px solid #d1d5db;
+    display: inline-block;
+    width: 100%;
+}
+
+.arrival-block .item {
+    position: relative;
+    width: 25%;
+    float: left;
+    overflow: hidden;
+    border-right: 1px solid #d1d5db;
+    border-bottom: 1px solid #d1d5db;
+}
+
+.arrival-block .overlay {
+    background: rgba(255, 255, 21, 0.75);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -ms-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+}
+
+.arrival-block .item:hover .overlay {
+    opacity: 1;
+}
+
+.arrival-block .overlay a {
+    height: 71px;
+    width: 71px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #52594a;
+    text-align: center;
+    line-height: 71px;
+    color: #fff;
+}
+
+.arrival-block .price {
+    position: absolute;
+    right: 20px;
+    top: -50px;
+    font-size: 18px;
+    font-weight: bold;
+    z-index: 9;
+    color: #2d3a4b;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -ms-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+}
+
+.arrival-block .price small {
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.arrival-block .item:hover .price {
+    top: 20px;
+}
+
+.arrival-block .overlay a:hover {
+    background: #fff;
+    color: #52594a;
+}
+
+.arrival-block .item img {
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    left: 0px;
+    position: relative;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -ms-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+}
+
+.arrival-block .item:hover .img-1 {
+    left: -100%;
+    position: relative;
+}
+
+.arrival-block .item .img-2 {
+    position: absolute;
+    left: 100%;
+}
+
+.arrival-block .item:hover .img-2 {
+    left: 0px;
+}
+
+.arrival-block .item-name {
+    position: absolute;
+    bottom: 0px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    width: 100%;
+    text-align: center;
+    z-index: 9;
+    background: -moz-linear-gradient( top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient( top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient( to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff', GradientType=0);
+    /* IE6-9 */
+}
+
+.arrival-block .item-name p {
+    font-family: "Playfair Display", serif;
+    font-size: 14px;
+    margin: 0px;
+}
+
+.arrival-block .item-name a {
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #2d3a4b;
+    text-transform: uppercase;
+}
+
+.arrival-block .item-name a:hover {
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -ms-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+    text-decoration: overline !important;
+}
+
+.padding-bottom-100 {
+    padding-bottom: 100px !important;
+}
+
+.heading {
+    margin: 0 auto;
+    margin-bottom: 80px;
+    position: relative;
+    z-index: 1;
+}
+
+.heading h4 {
+    font-weight: bold;
+    color: #2d3a4b;
+    font-size: 26px;
+    margin: 0px;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+}
+
+.heading span {
+    display: inline-block;
+    width: 52%;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #666666;
+    font-family: "Playfair Display", serif;
+}
+
+.heading span {
+    color: #666666;
+}
+
+.padding-top-100 {
+    padding-top: 100px !important;
+}
+
+section {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    background: #fff;
+}
+
+.position-center-center {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+/*======================= [ End Product Page ]==================*/
+
+
+/*======================= [ Start Details Page ] ===============*/
+.slider::-webkit-scrollbar{
+
+width: 0;
+height: 0;
+}
+.slider-container{
+    padding: 2rem;
+    
+}
+.slider-wrapper{
+    position: relative;
+    max-width: 60rem;
+    margin: 0 auto;
+}
+.slider {
+    display: flex;
+    overflow: auto;
+    aspect-ratio: 0.99 / 1;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0,0%,0%,0.25) ;
+}
+.slider img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+.slider-nav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.slider-nav a{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+.slider-nav a:hover{
+    opacity: 1;
+}
+.slides li img{
+    height: 300px;
+}
+
+/* 
+.slider{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+.slides{
+    height: 500px;
+    display: flex;
+}
+.slides input{
+    display: none;
+}
+.slide{
+    width: 20%;
+    
+    transition: 2s;
+}
+.slide img{
+    width: 500px;
+    height: 500px;
+}
+.navigation-manual{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn{    
+    border:  2px solid #40d3dc;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+.manual-btn:hover{
+    background: #40d3dc;
+}
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+#radio4:checked ~ .first{
+    margin-left: -60%;
+} */
+/*======================= [ End Details Page ] ===============*/
